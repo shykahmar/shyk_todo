@@ -1,7 +1,34 @@
 import 'package:flutter/material.dart';
+import 'package:splashscreen/splashscreen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(home: MySplashScreen()));
+}
+
+class MySplashScreen extends StatefulWidget {
+  @override
+  _MySplashScreenState createState() => new _MySplashScreenState();
+}
+
+class _MySplashScreenState extends State<MySplashScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return new SplashScreen(
+      seconds: 5,
+      navigateAfterSeconds: new MyApp(),
+      title: new Text(
+        'Shyk Todo App',
+        style: new TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 30.0,
+          color: Colors.blue,
+        ),
+      ),
+      image: new Image.asset('assets/images/ahmar.png'),
+      backgroundColor: Colors.white,
+      loaderColor: Colors.blue,
+    );
+  }
 }
 
 class MyApp extends StatelessWidget {
