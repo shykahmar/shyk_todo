@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1079575553607",
+    "project_id": "shyktodo",
+    "storage_bucket": "shyktodo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079575553607:android:11c3e38ba549a8f67e3362",
+        "android_client_info": {
+          "package_name": "com.example.shyk_todo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079575553607-v2q65435lg6bius0rqdjn4hv43trshr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC790NHjI38FdhpfQ1hGGPOgbrpO4q3hDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079575553607-v2q65435lg6bius0rqdjn4hv43trshr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
